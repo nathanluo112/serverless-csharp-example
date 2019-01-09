@@ -1,5 +1,6 @@
 ﻿language: csharp
 solution: aws-csharp.sln
+mono: none
 dotnet: 2.1.302
 install:
     - dotnet restore
