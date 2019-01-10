@@ -6,7 +6,7 @@
             - checkout
             - run:
                 name: Install dependencies
-                command: dotnet restore; apt-get install node; npm install -g serverless
+                command: dotnet restore; apt-get install nvm;
             - run:
                 name: Build
                 command: ./build.sh
